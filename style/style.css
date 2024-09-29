@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #35424a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #35424a;
+}
+
+form input[type="text"], form input[type="email"], form textarea, form input[type="date"], form input[type="password"] {
+    width: 98%; 
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+
+form input[type="radio"], form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form input[type="file"] {
+    margin-top: 10px;
+}
+
+form button {
+    background-color: #35424a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+form textarea {
+    width: 98%; 
+    max-width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #35424a;
+    color: white;
+}
+
+tfoot td {
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px;
+}
+
+footer a {
+    color: #45a049;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para a tabela de pontuação */
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para os detalhes das respostas */
+details {
+    margin-top: 10px;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #35424a;
+}
+
+details ol {
+    margin-top: 10px;
+}
